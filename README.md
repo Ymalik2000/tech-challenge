@@ -6,12 +6,24 @@ Web backend challenge solution for Mavennet. Made using Node.js and express, wit
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
+## Requirements
+
+Have Node.js and npm installed. Download can be found here: https://nodejs.org/en/
+
 ### Installing
 
 Start off by obtaining the node modules needed by running the following in the root:
 
 ```
 npm install
+```
+
+For running the server and tests, install the Nodemon and Mocha+Chai:
+
+```
+npm install -g nodemon
+npm install -g mocha
+npm install chai
 ```
 
 Once done, navigate to '/server/' and run the following to start the server:
