@@ -4,7 +4,7 @@
 const chai = require('chai');
 const chaiHttp = require('chai-http');
 const { expect } = chai;
-const server = require('./../server/app.js');
+const server = require('../server/app.js');
 
 chai.use(chaiHttp);
 
@@ -70,7 +70,7 @@ before(async () => {
   });
 
     //Tries to access an album the authenticated user does not own
-    describe('Found requested album', () => {
+    describe('Request unowned album', () => {
       it('should return status 404', async () => {
         try {
           const result = await chai
