@@ -1,4 +1,4 @@
-# Mavennet Tech Challenge
+# Backend Mavennet Tech Challenge
 
 Web backend challenge solution for Mavennet. Made using Node.js and express, with Mocha and Chai for testing.
 
